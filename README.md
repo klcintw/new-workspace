@@ -1,4 +1,4 @@
-﻿# mhat-common-boilerplate-repo
+﻿# klcintw/new-workspace
 
 這個專案的目的是提供一個template，方便建立新專案的時候，包含需要的最基本資訊。
 

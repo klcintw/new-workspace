@@ -1,7 +1,5 @@
 ﻿# mhat-common-boilerplate-repo
 
-[![Gitter](https://img.shields.io/gitter/room/nwjs/nw.js.svg)](https://gitter.im/alantsai/mhat-common-boilerplate-repo?utm_source=share-link&utm_medium=link&utm_campaign=share-link)
-
 這個專案的目的是提供一個template，方便建立新專案的時候，包含需要的最基本資訊。
 
 每一個資料夾或者檔案的作用詳細說明可以參考我的部落格[該怎麼開專案的資料夾結構？每個專案應該要有的資料夾結構和檔案](http://to.alantsai.net/20170723-blog-github)
@@ -26,7 +24,7 @@
 
 可以直接下載最新版本的zip檔案：
 
-[下載最新的zip](https://github.com/alantsai/mhat-common-boilerplate-repo/archive/master.zip)
+[下載最新的zip](https://github.com/klcintw/new-workspace/archive/master.zip)
 
 或者可以 ：
 
@@ -37,12 +35,12 @@
 Powershell指令來說就是：
 
 ```powershell
-git clone https://github.com/alantsai/mhat-common-boilerplate-repo.git
-cd mhat-common-boilerplate-repo
-rm .git -Recurse -Force
+git clone https://github.com/klcintw/new-workspace.git
+cd new-workspace
+rd /s /q .git
 git init
 git add -A
-git commit -m "init project"
+git commit -m "init workspace"
 ```
 
 ### 包含這個專案的歷史記錄
@@ -54,8 +52,8 @@ git commit -m "init project"
 3. 調整origin到新的位置
 
 ```powershell
-git clone https://github.com/alantsai/mhat-common-boilerplate-repo.git
-cd mhat-common-boilerplate-repo
+git clone https://github.com/klcintw/new-workspace.git
+cd ew-workspace
 git remote rm origin
 git remote add origin {new repo url}
 ```
